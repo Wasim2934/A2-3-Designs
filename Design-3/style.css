@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 890px;
+  margin: auto;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.top h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 8px;
+  align-items: center;
+  overflow: hidden;
+  height: 330px;
+  width: 200px;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgba(128, 128, 128, 0.205);
+}
+
+.line {
+  height: 2px;
+  width: 20px;
+  background-color: orange;
+}
+
+.card img {
+  width: 100px;
+  height: 250px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.active {
+  border: 1px solid orange;
+}
+
+.signature {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.new {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.price {
+  color: orange;
+  font-size: 18px;
+}
+
+.middle-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-top img {
+    object-fit: cover;
+}
+
+.card h4 {
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 12px;
+  color: gray;
+}
+
+.middle-bottom {
+  display: flex;
+  gap: 40px;
+  height: 100%;
+  padding: 10px 15px;
+  background-color: rgba(128, 128, 128, 0.205);
+  border-radius: 10px;
+}
+
+.middle-bottom .para {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.middle-bottom img {
+  width: 150px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.para p {
+    color: gray;
+}
+
+.explore {
+    color: orange;
+    background-color: black;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: orange;
+}
+
+.bottom-center a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: gray;
+}
+
+.bottom-left  p {
+    color: gray;
+}
+
+.bottom-right p {
+    color: gray;
+}
+
+.bottom-right img {
+    height: 20px;
+    border-radius: 20px;
+}
